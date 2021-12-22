@@ -1,0 +1,114 @@
+body {
+  background: linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+  background-attachment: fixed;
+}
+
+::-moz-selection {
+  background: #ddeeff;
+}
+
+::selection {
+  background: #ddeeff;
+}
+
+.main-container {
+  padding: 50px;
+  font-family: 'Nunito';
+  font-weight: normal;
+  font-style: normal;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main-container a {
+  color: grey;
+  text-decoration: none;
+}
+
+.avatar {
+  display: none;
+}
+
+.name, .name:hover, .name:visited, .name:active, .name:link {
+  font-family: "Nunito";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 36px;
+  color: black;
+  text-decoration: none;
+}
+
+.main-nav {
+  font-size: 20px;
+  padding-top: 54px;
+}
+
+.main-nav .nav-link {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: black;
+}
+
+.main-nav .nav-link.resume-vita {
+  display: initial;
+}
+
+.main-icons {
+  padding-top: 20px;
+}
+
+.main-icons .icon {
+  color: black;
+  text-decoration: none;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 25px;
+}
+
+.side {
+  padding-bottom: 40px;
+  border-bottom: 2px solid #ddeeff;
+}
+
+.intro {
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.intro a:hover {
+  color: #f8312f;
+}
+
+.icon {
+  color: black !important;
+}
+
+@media (min-width: 992px) {
+  .main-container {
+    max-width: 1320px;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -50%) !important;
+            transform: translate(-50%, -50%) !important;
+  }
+  .side {
+    width: 90%;
+    margin-left: auto;
+    border-bottom: none;
+  }
+  .intro {
+    padding-top: 10px;
+  }
+  .avatar {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border: 1px solid #ddeeff;
+  }
+  .main-icons {
+    padding-top: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
