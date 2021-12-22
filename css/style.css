@@ -70,8 +70,6 @@ body {
 }
 
 .intro {
-  width: 90%;
-  margin: auto;
   padding-top: 40px;
 }
 
@@ -98,6 +96,8 @@ body {
     border-bottom: none;
   }
   .intro {
+    width: 90%;
+    margin: auto;
     padding-top: 10px;
   }
   .avatar {
