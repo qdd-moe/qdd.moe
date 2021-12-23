@@ -12,6 +12,7 @@ body {
 }
 
 .main-container {
+  min-height: 100vh;
   padding: 50px;
   font-family: 'Nunito';
   font-weight: normal;
@@ -25,7 +26,11 @@ body {
 }
 
 .avatar {
-  display: none;
+  display: block;
+  width: 150px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 1px solid #ddeeff;
 }
 
 .name, .name:hover, .name:visited, .name:active, .name:link {
@@ -83,6 +88,7 @@ body {
 
 @media (min-width: 992px) {
   .main-container {
+    min-height: auto;
     max-width: 1320px;
     position: absolute !important;
     top: 50% !important;
@@ -101,11 +107,7 @@ body {
     padding-top: 10px;
   }
   .avatar {
-    display: block;
     width: 100%;
-    margin-bottom: 20px;
-    border-radius: 50%;
-    border: 1px solid #ddeeff;
   }
   .main-icons {
     padding-top: 10px;
